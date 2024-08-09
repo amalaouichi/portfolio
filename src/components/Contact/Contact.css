@@ -1,0 +1,86 @@
+/* src/styles/Contact.css */
+#contact {
+  padding: 2rem;
+  background-color:  #F3F7EC;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.linkedin-icon {
+  width: 60px; /* Set the desired width */
+  height: 60px; /* Set the desired height */
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
+#coln {
+  flex: 1;
+  max-width: 45%;
+  padding-right: 2rem;
+}
+#form-container {
+  flex: 1;
+  max-width: 45%;
+}
+
+#contact h2 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+#contact p {
+  text-align: left;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-column:first-child {
+  margin-right: 1rem;
+}
+
+form label {
+  margin-top: 1rem;
+}
+
+form input, form textarea {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form textarea {
+  height: 118px;
+}
+
+form button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #282c34;
+  color: white;
+  border: #333 solid 1px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: 150px;
+  height: 50px;
+  border-radius: 4px;
+  align-self: flex-end;  /* Aligns the button to the right within the column */
+}
+
+form button:hover {
+  background-color: #444;
+}

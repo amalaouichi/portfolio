@@ -1,0 +1,42 @@
+footer {
+  background-color: #282c34;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 4rem;
+  padding-right: 2rem;
+}
+
+.github-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+  
+  .scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: calc(50% - 20px); /* Calcul pour centrer horizontalement */
+    background-color: #006989;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1000; /* Assurez-vous que la flèche est au-dessus de tout le contenu */
+  }
+  
+  .scroll-top:hover {
+    background-color: #006989;
+  }
+  
+  .arrow-up-icon {
+    width: 20px;
+    height: 20px;
+  }
+  

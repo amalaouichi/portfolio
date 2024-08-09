@@ -1,0 +1,109 @@
+/* src/styles/About.css */
+#about {
+  padding: 2rem;
+  background-color:  #F3F7EC;
+  display: flex;
+  justify-content: center;
+  align-items: center;#about {
+  padding: 2rem;
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+}
+
+.text-section {
+  flex: 1;
+  text-align: left;
+  padding-right: 2rem;
+  animation: slideFromLeft 1s ease-in-out forwards;
+}
+
+.profile-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  animation: slideFromRight 1s ease-in-out forwards;
+}
+
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+
+  overflow: hidden;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+}
+
+.text-section {
+  flex: 1;
+  text-align: left;
+  padding-right: 2rem;
+  animation: slideFromLeft 1s ease-in-out forwards;
+}
+
+.profile-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  animation: slideFromRight 1s ease-in-out forwards;
+}
+
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+#about h2 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem; /* Adjust the size */
+  color: #006989; /* Adjust the color */
+  font-weight: bold; /* Adjust the font weight */
+}
+
+#about p strong {
+  color: #006989; /* Couleur bleue */
+}
