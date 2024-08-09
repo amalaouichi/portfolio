@@ -1,82 +1,57 @@
 /* src/styles/About.css */
+
 #about {
-  padding: 2rem;
-  background-color:  #F3F7EC;
-  display: flex;
-  justify-content: center;
-  align-items: center;#about {
   padding: 2rem;
   background-color: #e8e8e8;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  flex-direction: column;
 }
 
 .about-content {
   display: flex;
+  flex-direction: column;
   align-items: center;
   max-width: 1000px;
 }
 
-.text-section {
-  flex: 1;
-  text-align: left;
-  padding-right: 2rem;
-  animation: slideFromLeft 1s ease-in-out forwards;
-}
-
 .profile-image {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1rem;
   animation: slideFromRight 1s ease-in-out forwards;
 }
 
-@keyframes slideFromLeft {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideFromRight {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-
-
-  overflow: hidden;
-}
-
-.about-content {
-  display: flex;
-  align-items: center;
-  max-width: 1000px;
-}
-
 .text-section {
   flex: 1;
-  text-align: left;
-  padding-right: 2rem;
+  text-align: center;
+  padding: 0;
   animation: slideFromLeft 1s ease-in-out forwards;
 }
 
-.profile-image {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1rem;
-  animation: slideFromRight 1s ease-in-out forwards;
+@media (min-width: 768px) {
+  #about {
+    flex-direction: row;
+  }
+
+  .about-content {
+    flex-direction: row;
+  }
+
+  .profile-image {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 0;
+  }
+
+  .text-section {
+    text-align: left;
+    padding-left: 2rem;
+  }
 }
 
 @keyframes slideFromLeft {
@@ -99,11 +74,11 @@
 
 #about h2 {
   margin-bottom: 1rem;
-  font-size: 2.5rem; /* Adjust the size */
-  color: #006989; /* Adjust the color */
-  font-weight: bold; /* Adjust the font weight */
+  font-size: 2.5rem;
+  color: #006989;
+  font-weight: bold;
 }
 
 #about p strong {
-  color: #006989; /* Couleur bleue */
+  color: #006989;
 }
