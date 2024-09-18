@@ -47,7 +47,30 @@
   margin-bottom: 0;
 }
 .icon {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   margin-left: 20px; /* Espacement entre le texte et l'icône */
+}
+.iconJpg {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px; /* Espacement entre le texte et l'icône */
+}
+.iconal {
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.iconh {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  margin-bottom: 4px;
+}
+.marginTop{
+  margin-top: 70px;
+}
+.marginTopp{
+  margin-top: 100px;
 }
