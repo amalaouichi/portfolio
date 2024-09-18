@@ -19,7 +19,7 @@ import flask from "../../assets/icons/flask.png";
 const Projects = () => {
   return (
     <section id="projects">
-      <h2>My Projects</h2>
+      <h2>Projects</h2>
       <div className="project-list">
         <div className="project">
           <h3>Enterprise Management System Web Application (SIRH)</h3>
