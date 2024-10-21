@@ -2,7 +2,7 @@ import React from 'react';
 import './Skills.css';
 
 const skills = [
-  'JavaScript', 'Java', 'PHP', 'React Native', 'C#', 'Python', 
+  'JavaScript', 'Java', 'PHP', 'Express.js ', 'C#', 'Python', 
   'HTML/CSS', 'Jinja2', 'PrimeFaces', 'ReactJs', 'Symfony', 
   'Flask', 'Spring', 'JSF', 'Next.js', 'WordPress'
 ];
