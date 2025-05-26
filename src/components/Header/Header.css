@@ -3,25 +3,45 @@ header {
     background-color: #282c34;
     padding: 1rem;
     color: white;
-  }
-  
-  header nav ul {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
-  }
-  
-  header nav ul li {
-    margin: 0 1rem;
-  }
-  
-  header nav ul li a {
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
     color: white;
     text-decoration: none;
-  }
-  
-  header nav ul li a:hover {
+    font-size: 1.5rem; /* Taille par défaut */
+    padding: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+header nav ul li a:hover {
     text-decoration: underline;
-  }
-  
+}
+
+/* Version mobile simple */
+@media (max-width: 768px) {
+    header nav ul li a {
+        font-size: 1.1rem; /* Taille réduite sur mobile */
+        padding: 0.3rem;
+    }
+
+    header nav ul {
+        gap: 0.5rem; /* Espacement réduit */
+    }
+}

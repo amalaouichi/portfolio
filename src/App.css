@@ -1,67 +1,82 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+:root {
+    --primary-color: #282c34; /* Couleur similaire à votre header/footer */
+    --secondary-color: #9b56a6; /* Une couleur bleue claire comme exemple */
 }
 
-header, footer {
-  background-color: #282c34;
-  color: white;
-  text-align: center;
-  padding: 1rem;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    height: 100vh;
+    background: linear-gradient(
+        180deg,
+        var(--primary-color),
+        var(--secondary-color)
+    );
+    background-attachment: fixed;
+}
+
+header,
+footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 1rem;
 }
 
 header nav ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 header nav ul li {
-  display: inline;
-  margin: 0 1rem;
+    display: inline;
+    margin: 0 1rem;
 }
 
 header nav ul li a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 section {
-  padding: 2rem;
+    padding: 2rem;
 }
 
 .project-list {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .project {
-  flex: 1 1 calc(50% - 1rem);
-  margin: 0.5rem;
-  border: 1px solid #ccc;
-  padding: 1rem;
+    flex: 1 1 calc(50% - 1rem);
+    margin: 0.5rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 form label {
-  margin-top: 1rem;
+    margin-top: 1rem;
 }
 
-form input, form textarea {
-  padding: 0.5rem;
-  margin-top: 0.5rem;
+form input,
+form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 form button {
-  margin-top: 1rem;
-  padding: 0.5rem;
-  background-color: #282c34;
-  color: white;
-  border: none;
-  cursor: pointer;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #282c34;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
