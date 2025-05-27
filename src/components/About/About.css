@@ -7,8 +7,8 @@
     box-sizing: border-box;
     background: linear-gradient(
         135deg,
-        rgba(40, 44, 52, 0.95) 0%,
-        rgba(155, 86, 166, 0.85) 100%
+        rgba(27, 29, 34, 0.95) 0%,
+        rgba(120, 53, 131, 0.85) 100%
     );
     position: relative;
     overflow: hidden;
@@ -61,10 +61,10 @@
     animation: fadeInUp 1s ease-out forwards;
     animation-delay: 0.2s;
     backdrop-filter: blur(8px);
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.186);
     border-radius: 16px;
     padding: 2rem;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.455);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 

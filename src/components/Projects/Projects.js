@@ -37,9 +37,14 @@ const Projects = () => {
                 <div className="project">
                     <h3>CMDA</h3>
                     <p>
-                        A web application dedicated to inventorying and
-                        classifying data according to organizations, with the
-                        ability to publish this data on the internet.
+                        CMDA is an innovative platform that connects
+                        professionals and showcases their expertise. Non-members
+                        can share their projects and resumes, and sign up to
+                        access an exclusive network. Members benefit from
+                        increased visibility, send invitations, and use
+                        integrated messaging. Quick connections via Google and
+                        LinkedIn simplify access to this dynamic professional
+                        community.
                     </p>
                 </div>
             </div>
