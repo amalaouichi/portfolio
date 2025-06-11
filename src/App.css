@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #282c34; /* Couleur similaire à votre header/footer */
-    --secondary-color: #6d3576; /* Une couleur bleue claire comme exemple */
+    --primary-color: #282c34;
+    --secondary-color: #6d3576;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
     padding: 0;
     overflow-x: hidden;
     box-sizing: border-box;
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(
         180deg,
         var(--primary-color),
